@@ -1,3 +1,4 @@
+/*CSS for header*/
 h3{
 	font-size: 20px;
 }
@@ -5,6 +6,7 @@ h3{
 	background: black;
 }
 .makemeblue{
+	margin:10px;
 	background: blue;
 }
 .main-nav-left{
@@ -28,4 +30,48 @@ h3{
 }
 .home-right-container{
 	padding: 15px;
+}
+.makemeblue img{
+	width: 200px;
+	height: auto;
+	display: inline-block;
+}
+.makemeblue div{
+	display: inline-block;
+}
+/*CSS for header end*/
+.parent-div{
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background: grey;
+}
+.parent-div img{
+	position: absolute;
+}
+.child-div-1{
+	position: absolute;
+	left: 200px;
+	top: 150px;
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	z-index: 2;
+}
+.child-div-2{
+	position: absolute;
+	left: 240px;
+	top: 160px;
+	width: 100px;
+	height: 100px;
+	background: green;
+	z-index: 1;
+}
+.fixed-div{
+	left: 200px;
+	top: 200px;
+	background: red;
+	width: 200px;
+	height: 200px;
+	position: fixed;
 }
