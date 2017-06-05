@@ -1,0 +1,52 @@
+.makemeblue{
+	margin:0 auto;
+	background: blue;
+	width: 1200px;
+	height: 400px;
+}
+.makemeblack{
+	margin:2%;
+	float: left;
+	background: black;
+	width: 46%;
+	height: 300px;
+}
+
+@media only screen and (max-width: 1024px){
+	.makemeblue{
+		background: #00f0ff;
+		width: 768px;
+	}
+	.makemeblack{
+		margin:2%;
+		float: left;
+		background: #f0f0f0;
+		width: 46%;
+		height: 300px;
+	}
+}
+@media only screen and (max-width: 768px){
+	.makemeblue{
+		margin:0 auto;
+		background: #0000ff;
+		width: 100%;
+		height: 700px;
+	}
+	.makemeblack{
+		margin:10px auto;
+		float: none;
+		background: #000;
+		width: 50%;
+		height: 300px;
+		clear: both;
+	}
+	.makemeblack:hover{
+		margin:10px auto;
+		padding-left: 20%;
+		float: none;
+		background: #f00;
+		width: 40%;
+		height: 300px;
+		clear: both;
+	}
+}
